@@ -1,0 +1,301 @@
+{
+  "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Resources/deployments/deploy-1554926338",
+  "location": null,
+  "name": "deploy-1554926338",
+  "properties": {
+    "correlationId": "1d247625-66f5-4f35-8237-fe2878e512b3",
+    "debugSetting": null,
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Network/networkInterfaces/vm-1-NIC",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "vm-1-NIC",
+            "resourceType": "Microsoft.Network/networkInterfaces"
+          },
+          {
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Network/networkInterfaces/vm-2-NIC",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "vm-2-NIC",
+            "resourceType": "Microsoft.Network/networkInterfaces"
+          },
+          {
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/availabilitySets/Clients-AvSet",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "Clients-AvSet",
+            "resourceType": "Microsoft.Compute/availabilitySets"
+          }
+        ],
+        "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/virtualMachines/vm-1",
+        "resourceGroup": "john-test-rg01",
+        "resourceName": "vm-1",
+        "resourceType": "Microsoft.Compute/virtualMachines"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Network/networkInterfaces/vm-1-NIC",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "vm-1-NIC",
+            "resourceType": "Microsoft.Network/networkInterfaces"
+          },
+          {
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Network/networkInterfaces/vm-2-NIC",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "vm-2-NIC",
+            "resourceType": "Microsoft.Network/networkInterfaces"
+          },
+          {
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/availabilitySets/Clients-AvSet",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "Clients-AvSet",
+            "resourceType": "Microsoft.Compute/availabilitySets"
+          }
+        ],
+        "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/virtualMachines/vm-2",
+        "resourceGroup": "john-test-rg01",
+        "resourceName": "vm-2",
+        "resourceType": "Microsoft.Compute/virtualMachines"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/virtualMachines/vm-1",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "vm-1",
+            "resourceType": "Microsoft.Compute/virtualMachines"
+          },
+          {
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/virtualMachines/vm-2",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "vm-2",
+            "resourceType": "Microsoft.Compute/virtualMachines"
+          },
+          {
+            "apiVersion": "2017-06-01",
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Network/networkInterfaces/vm-1-NIC",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "vm-1-NIC",
+            "resourceType": "Microsoft.Network/networkInterfaces"
+          },
+          {
+            "apiVersion": "2017-03-30",
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/virtualMachines/vm-1",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "vm-1",
+            "resourceType": "Microsoft.Compute/virtualMachines"
+          }
+        ],
+        "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Resources/deployments/GetInfo0",
+        "resourceGroup": "john-test-rg01",
+        "resourceName": "GetInfo0",
+        "resourceType": "Microsoft.Resources/deployments"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Resources/deployments/GetInfo0",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "GetInfo0",
+            "resourceType": "Microsoft.Resources/deployments"
+          },
+          {
+            "apiVersion": "2017-06-01",
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Network/networkInterfaces/vm-2-NIC",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "vm-2-NIC",
+            "resourceType": "Microsoft.Network/networkInterfaces"
+          },
+          {
+            "apiVersion": "2017-03-30",
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/virtualMachines/vm-2",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "vm-2",
+            "resourceType": "Microsoft.Compute/virtualMachines"
+          },
+          {
+            "apiVersion": "2018-05-01",
+            "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Resources/deployments/GetInfo0",
+            "resourceGroup": "john-test-rg01",
+            "resourceName": "GetInfo0",
+            "resourceType": "Microsoft.Resources/deployments"
+          }
+        ],
+        "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Resources/deployments/GetInfo1",
+        "resourceGroup": "john-test-rg01",
+        "resourceName": "GetInfo1",
+        "resourceType": "Microsoft.Resources/deployments"
+      }
+    ],
+    "duration": "PT29.8440702S",
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputResources": [
+      {
+        "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/availabilitySets/Clients-AvSet",
+        "resourceGroup": "john-test-rg01"
+      },
+      {
+        "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/virtualMachines/vm-1",
+        "resourceGroup": "john-test-rg01"
+      },
+      {
+        "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Compute/virtualMachines/vm-2",
+        "resourceGroup": "john-test-rg01"
+      },
+      {
+        "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Network/networkInterfaces/vm-1-NIC",
+        "resourceGroup": "john-test-rg01"
+      },
+      {
+        "id": "/subscriptions/66bc9830-19b6-4987-94d2-0e487be7aa47/resourceGroups/john-test-rg01/providers/Microsoft.Network/networkInterfaces/vm-2-NIC",
+        "resourceGroup": "john-test-rg01"
+      }
+    ],
+    "outputs": {
+      "hostNameList": {
+        "type": "Array",
+        "value": [
+          "vm-2.",
+          "vm-1."
+        ]
+      },
+      "ipAddresList": {
+        "type": "Array",
+        "value": [
+          "10.0.6.51",
+          "10.0.6.50"
+        ]
+      }
+    },
+    "parameters": {
+      "_artifactsLocation": {
+        "type": "String",
+        "value": "https://pmcstorage08.blob.core.windows.net/johntestrg01-stageartifacts"
+      },
+      "_artifactsLocationSasToken": {
+        "type": "SecureString"
+      },
+      "adminUsername": {
+        "type": "String",
+        "value": "pmcadmin"
+      },
+      "dnsDomainName": {
+        "type": "String",
+        "value": ""
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "nodeCount": {
+        "type": "Int",
+        "value": 2
+      },
+      "sshKeyData": {
+        "type": "String",
+        "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCqwHQ2PbXWzqDXZ7jr3Llh9ULS2UCMDNYwh6xMwi2sKlXlMLFTy+gp+HrFuiOrgz20k/TyybQ8djT+LQ1i35sBOJFs1hPAJYy/KEhvggCi/w13G9lxAY44YiUAy9ZgEQ8+L6CKhRA0QiLxM5Q3wNhGg+EnpZDTkk4Sfpy/4vNTaujVpVeCST3U/H9jl3LjwKR17HFOmScvF6jEdIm2gATIWgeyV4ysSeRop1k8Dd7EqYw3svsseY404O2a1EkICGaS/GkwYtW+J+lwbiXmaCyhzhOJHoFOwozSr2MwkbSDsj3vKkzfTmhkrYq3DuE1E4iFl0Hc81AWerhAl738d6h7SFcnuaj7Yv4K+jN0jqONTbvgHP8+e+QY27ANdeeVxyBnmWL6On55Awb2x+1nkeV5CG2gRBB+0tXh5FbWhDhrUmvzxbuplopshOv5PSN2JPSGbznEUeKNSIpRrZeLfpcZ89daiorsRq14pfzPlONqh9HlZpDuI7Amy1F9awW3jsGqR0SEJfJf1+xUpFju85HphpQzbiwpuDn3CS499h076EbeMc1S5JjzEk7B+KHPgWqJ4xs+ZYESaxW6YukPY5kuvS5KlWOtVp7EqI+/E8Hph2sJ8N7BsNEFdyH6ebeBPT03k49VX3Q/1tyXZoJftPPmFbwyV/LbAqX3sEp0bfs2tw== pmcadmin@pmarques-pc01"
+      },
+      "startIpAddress": {
+        "type": "Int",
+        "value": 50
+      },
+      "subnetIpAddressSuffix": {
+        "type": "String",
+        "value": "10.0.6"
+      },
+      "subnetName": {
+        "type": "String",
+        "value": "test-sn"
+      },
+      "vmImage": {
+        "type": "String",
+        "value": "CentOS_7.6"
+      },
+      "vmNameSuffix": {
+        "type": "String",
+        "value": "vm"
+      },
+      "vmSize": {
+        "type": "String",
+        "value": "Standard_D4s_v3"
+      },
+      "vnetName": {
+        "type": "String",
+        "value": "photoscan-vnet"
+      },
+      "vnetRG": {
+        "type": "String",
+        "value": "photoscan-rg01-eus"
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Compute",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "availabilitySets"
+          },
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "virtualMachines"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Network",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "networkInterfaces"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Resources",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "deployments"
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "template": null,
+    "templateHash": "2430557756792257530",
+    "templateLink": null,
+    "timestamp": "2019-04-10T19:59:37.282638+00:00"
+  },
+  "resourceGroup": "john-test-rg01",
+  "type": null
+}
